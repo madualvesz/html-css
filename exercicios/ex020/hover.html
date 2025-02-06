@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* adicionar o ">" significa estar dentro de outra coisa*/
+
+        /*esse parágrafo não vai alterar o parágrafo do h1, pois está DENTRO da div.*/
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 170px;
+        }
+
+        div:hover{
+            color: red;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Clique <a href="pseudoclasse.html" rel="prev">AQUI</a> para voltar.</p>
+</body>
+</html>

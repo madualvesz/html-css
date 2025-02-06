@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@font-face{
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body{
+    margin: 0px;
+    background-color: #a5a45a62;
+}
+header{
+    background-image:linear-gradient(to bottom,#32BD60, #3E8F59, #3D664B, #2e4134) ;
+    text-align: center;
+    border: 1px;
+    padding: 7px 1px 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    font-weight: bold;
+}
+p#cabeca{
+    color: white;
+}
+
+nav{
+    text-align: left;
+}
+a{
+    color: #33BD6C;
+    text-decoration: none;
+    padding: 9px;
+    text-align: center;
+}
+a:hover{
+    text-align: center;
+    color: #13d366;
+    background-color: #23824ba6;
+    border: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+main{
+    background-color: white;
+    border: 0px;
+    box-shadow: 0px 3px 10px 2px #a5a45a62;
+    margin: 0px 50px 10px 50px;
+    padding: 1px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 5px 5px;
+}
+h1{
+    font-family: idroid;
+    font-size: 1.3em;
+    color: #005527;
+    font-weight: lighter;
+
+}
+h2{
+    font-family: idroid;
+    font-size: 1.3em;
+    color: #0e6637;
+    font-weight: lighter;
+    background-image: linear-gradient(to left,#c3ffd600,#81d69cc4);
+    padding-left: 5px;
+    border-radius: 3px;
+    
+}
+p.text-p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+div#conteudo{
+    background-color: #005527;
+    text-align: center;
+    margin: 0px -15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+div#extra{
+    background-color: #17e17f73;
+    padding: 0px 8px 10px 8px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 10px 2px #0d4b2c31;
+}
+p.extra-1{
+    background-color: #0d4b2c;
+    color: white;
+    padding: 8px;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bold;
+    margin: 16px -8px;
+    
+}
+ul.coluna{
+    float: left;
+    width: 85%;
+    height: 115px;
+    padding: 15px;
+    margin: 0px;
+}
+
+footer > p.final{
+    color: white;
+    background-color: #0d4b2c;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}

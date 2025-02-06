@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        /*ULTILIZANDO O SITE 'DAFONT'*/
+        @font-face {
+            font-family:'Love' ;
+            src: url('fonts/love larry ttf.ttf')format(truetype);
+            font-weight: normal;
+            font-style:normal;
+
+            /*
+            TIPOS DE format()
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Love','Times', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Pegando fontes do site "dafont", basicamente um google fonts porém com outras fontes e é feito o download de arquivo zip, então fica salvo em uma pasta ao invés de ser diretamente pelo código.</p>
+</body>
+</html>

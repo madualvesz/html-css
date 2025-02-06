@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif ;
+            /*
+
+            Medidas Absolutas
+            cm , mm , in (polegada) , !px! , pt (ponto) , pc (paica)
+
+            Medidas Relativas
+            !em! , ex , rem , vw , vh , %
+            16px geralmente igual a 1em
+            */
+            font-size: 1em;
+        }
+    h1{
+        /*
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 3em;
+        font-style: italic;
+        */
+        /*
+        SHORTHAND FONT
+        font-style -> font-weight -> font-size -> font-family
+        */
+        font: italic normal 3em Arial;
+    }
+
+    h2{
+        font: italic normal 2em 'Times New Roman';
+    }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Jeito de personalizar em CSS em apenas uma linha de código</p>
+    <p>Trabalhando com medidas</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Descobrindo fontes "serif" e "sans-serif"</p>
+</body>
+</html>
