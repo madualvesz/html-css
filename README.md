@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar siter e agora vou gerenciar meus repositórios!
 <br>
-Link pro meu primeiro projeto, inteiramente copiado, porém deu pra aprender! <a href="https://madualvesz.github.io/Projeto-Android/">Projeto Android</a> 
+Link pro meu primeiro projeto, feito pelo Gustavo Guanabara do CUrso em Vídeo, porém deu pra aprender! <a href="https://madualvesz.github.io/Projeto-Android/">Projeto Android</a> 
